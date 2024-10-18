@@ -1,0 +1,5 @@
+@let counter = 0;
+
+<h1>Counter {counter}</h1>
+<button on:click={() => counter++}>Increment</button>
+
